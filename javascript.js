@@ -1,4 +1,5 @@
 function AmountValue(){
+       let input = document.querySelector('input');
    let value = document.querySelector('input').value;
          let totalAfterTax = Math.floor(value * 0.70); 
     let InputFormatted = Number(totalAfterTax).toLocaleString('en');
@@ -11,6 +12,11 @@ if(value.length === 0){
     robuxBeforeTax.textContent = '';
     return;
   }
+if( value < 0){
+    robuxBeforeTax.textContent = 'Invalid Input';
+    return;
+  }
+
 
 robuxBeforeTax.textContent = InputFormatted;
   };
