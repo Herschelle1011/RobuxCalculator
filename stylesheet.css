@@ -429,22 +429,62 @@ input{
 .text2{
        font-size: 20px;
     bottom: 10px;
-    color: black !important;
+    color: white !important;
 }
 
 }
 
 
-@media (max-width:1046px    ) {
+@media (max-width:414px    ) {
     .robuxTaxCalculator{
-    width: 70%;
+    width: 80%;
     align-items: center;
 }
+
+button{
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+}
+
+input{
+    width: 254px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px 10px 50px; /* space for the icon */
+}
+
+.robux-image{
+      position: absolute;
+    left: 30px;
+    top: 5px;
+ 
+    width: 30px;
+    height: 30px;
 }
 
 
+.resultBox{
+    width: 100%
+}
+p{
+    font-size: 16px;
+}
+.ResultRbx{
+    font-size: 30px;
+}
+.text2{
+    font-size: 35px;
+}
+.text1{
+    font-size: 25px;
+}
 
 
+}
 
 
 

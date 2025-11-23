@@ -16,7 +16,6 @@ if( value < 0){
     return;
   }
 
-
 robuxBeforeTax.textContent = InputFormatted;
   };
 
