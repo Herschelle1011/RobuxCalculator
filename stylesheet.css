@@ -1,8 +1,15 @@
-body{
+html, body{
     margin: 0;
     padding: 0;
     background-color: #27282C;
+    overflow-x: hidden;
 
+}
+
+
+
+* {
+    box-sizing: border-box;
 }
 
 ul{
@@ -64,6 +71,10 @@ position: relative;
 transition: all 0.2s ease-in-out;
 box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
+}
+
+.robuxTaxCalculator {
+    max-width: 100%;
 }
 
 .robuxTaxCalculator:hover{
@@ -130,7 +141,7 @@ button{
 }
 .robux-image{
     position: absolute;
-    left: 190px;
+    left: 170px;
     top: 10px;
     background-image: url('https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/c/2/f/c2fc0404eeb8d393407bdaebe2cc9994a8953550.png');
      background-repeat: no-repeat;
@@ -140,14 +151,14 @@ button{
 }
 
 input{
-    width: 250px;
-    height: 30px;
+    width: 290px;
+    height: 50px;
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
     border-radius: 30px;
     border: none;
-    padding: 10px 15px 10px 45px; /* space for the icon */
+    padding: 10px 20px 10px 60px; /* space for the icon */
 
 }
 p{
@@ -414,9 +425,22 @@ input{
     color: #3b5998;
         transition: all 0.3s ease-in-out;
 }
+
+.text2{
+       font-size: 20px;
+    bottom: 10px;
+    color: black !important;
+}
+
 }
 
 
+@media (max-width:1046px    ) {
+    .robuxTaxCalculator{
+    width: 70%;
+    align-items: center;
+}
+}
 
 
 
